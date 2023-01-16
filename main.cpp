@@ -19,6 +19,6 @@ int main()
 	test.decalage(3);
 	test.decode();
 
-	std::cout << "Le message " << test.getCypher() << " dechiffé donne : " << test.getPlain() << std::endl;
+	std::cout << "Le message " << test.getCypher() << " dechiffe donne : " << test.getPlain() << std::endl;
 
 }
