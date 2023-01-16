@@ -28,7 +28,7 @@ void Cesar::decode()
 				_plain = _plain + _cypher[i];
 				test = 1;
 			}
-			else if (_cypher[i] == _Alphabet[decompte]);
+			else if (_cypher[i] == _Alphabet[decompte])
 			{
 				decompte = (decompte - _nombre) % 26;
 				_plain = _plain + _Alphabet[decompte];
@@ -42,4 +42,9 @@ void Cesar::decode()
 		decompte = 0;
 		test = 0;
 	}
+}
+
+void Cesar::encode()
+{
+
 }

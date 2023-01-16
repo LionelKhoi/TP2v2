@@ -7,8 +7,8 @@ public:
 
 	Encrypt();
 
-	virtual void encode();
-	virtual void decode();
+	virtual void encode() =0;
+	virtual void decode() =0;
 
 	std::string getPlain();
 	std::string getCypher();
