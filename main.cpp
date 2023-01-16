@@ -15,10 +15,14 @@ int main()
 	*/
 
 	Cesar test;
-	test.setCypher("ohv vdqjorwv orqjv dhv ylrorqv gh o'dxwrpqh eohvvhqw prq frhxu d'xqh odqjxhxu prqrwrqh.");
+	test.setCypher("ohv vdqjorwv orqjv ghv ylrorqv gh o'dxwrpqh eohvvhqw prq frhxu g'yqh odqjxhxu prqrwrqh.");
 	test.decalage(3);
 	test.decode();
+	
 
-	std::cout << "Le message " << test.getCypher() << " dechiffé donne : " << test.getPlain() << std::endl;
+	std::cout << "Le message " << test.getCypher() << " dechiffre donne : " << test.getPlain() << std::endl;
 
+
+	return 0;
 }
+

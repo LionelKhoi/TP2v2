@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -128,11 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BasicEncrypt.h" />
+    <ClInclude Include="Caesar2.h" />
     <ClInclude Include="Cesar.h" />
     <ClInclude Include="Encrypt.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BasicEncrypt.cpp" />
+    <ClCompile Include="Caesar2.cpp" />
     <ClCompile Include="Cesar.cpp" />
     <ClCompile Include="Encrypt.cpp" />
     <ClCompile Include="main.cpp" />
