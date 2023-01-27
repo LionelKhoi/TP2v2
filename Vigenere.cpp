@@ -4,7 +4,7 @@
 
 Vigenere::Vigenere(){}
 
-
+//modif
 void Vigenere::setCle(std::vector<int> cle)
 {
 	_cle = cle;

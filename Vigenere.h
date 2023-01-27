@@ -17,4 +17,4 @@ private:
 	std::vector <int> _cle;
 	std::string _Alphabet = "abcdefghijklmnopqrstuvwxyz";
 };
-
+//modif

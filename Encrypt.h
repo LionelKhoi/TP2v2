@@ -21,5 +21,5 @@ protected:
 	std::string _plain;
 	std::string _cypher;
 };
-
+//modif
 
