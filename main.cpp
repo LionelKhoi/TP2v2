@@ -31,6 +31,7 @@ int main()
 	cle.push_back(5);
 	cle.push_back(9);
 	cle.push_back(17);
+	/*std::string cle = "abcde";*/
 	Vigenere test;
 	test.setCypher("aaaaa");
 	test.setCle(cle);
@@ -43,3 +44,4 @@ int main()
 	return 0;
 }
 
+//ùodif

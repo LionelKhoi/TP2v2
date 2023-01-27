@@ -24,7 +24,7 @@ void Caesar2::decode()
 	}
 }
 
-
+//modif
 void Caesar2::encode()
 {
 	int i;

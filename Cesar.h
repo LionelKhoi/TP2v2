@@ -17,4 +17,4 @@ private:
 	std::string _Alphabet = "abcdefghijklmnopqrstuvwxyz";
 
 };
-
+//mdofi
